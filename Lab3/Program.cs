@@ -10,7 +10,7 @@ Binary bin = new();
 Console.WriteLine(bin.Compute());
 bin.Print();
 
-abstract Integer
+interface Integer
 {
 
     public int Compute();
